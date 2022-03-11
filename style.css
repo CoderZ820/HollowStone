@@ -1,0 +1,91 @@
+header {
+    width: 1323px;
+    border: 5px solid black;
+    border-radius: 10px;
+    display: block;
+    position: relative;
+    left: -8px;
+    font-size: 90px;
+    text-align: center;
+    text-shadow: 5px 5px 5px blue;
+    margin: 5px 5px 5px 5px;
+}
+/* Navigation style */
+nav {
+    width: 1246px;
+    border: 5px solid black;
+    border-radius: 10px;
+    display: inline-block;
+    position: relative;
+    left: -8px;
+    padding: 3%;
+    margin: 5px;
+}
+nav a { 
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    text-align: center;
+    padding: 40px;
+}
+/* Schedule style */
+#schedule {
+    width: 1326px;
+    height: 300px;
+    display:block;
+    position: relative;
+    left: -8px;
+    border: 5px solid black;
+    border-radius: 10px;
+    margin: 5px;
+}
+#schedule h3 {
+    text-align: center;
+    font-size: 30px;
+}
+#schedule ul {
+    padding: 10px;
+    font-weight: bold;
+    font-style: italic;
+    position: relative;
+    top: 0px;
+}
+/* Media block style */
+.media {
+    width: 1326px;
+    height: 200px;
+    border: 5px solid black;
+    border-radius: 10px;
+    text-align: center;
+    display:block;
+    position: relative;
+    left: -3px;
+}
+.media h2 {
+    font-weight: bold;
+    padding-top: 8px;
+}
+/* Band Bio style */
+.bio {
+    width: 1326px;
+    height: 350px;
+    border: 5px solid black;
+    border-radius: 10px;
+    position: relative;
+    left: -8px;
+    text-align: center;
+    margin: 5px;
+}
+.bio h2 {
+    font-size: 30px;
+}
+/* Merchandise */
+.merch {
+    width: 1326px;
+    height: 700px;
+    border: 5px solid black;
+    border-radius: 10px;
+    margin: 5px;
+    text-align: center;
+
+}
