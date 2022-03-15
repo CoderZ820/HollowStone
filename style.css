@@ -1,28 +1,17 @@
-header {
-    width: 1323px;
-    border: 5px solid black;
-    border-radius: 10px;
-    display: block;
-    position: relative;
-    left: -8px;
-    font-size: 90px;
-    text-align: center;
-    text-shadow: 5px 5px 5px blue;
-    margin: 5px 5px 5px 5px;
+/* Body style */
+body {
+    background-color: rgb(60, 60, 168);
 }
 /* Navigation style */
 nav {
-    width: 1246px;
-    border: 5px solid black;
-    border-radius: 10px;
+    width: 94%;
     display: inline-block;
     position: relative;
-    left: -8px;
     padding: 3%;
-    margin: 5px;
+    background-color: black;
 }
 nav a { 
-    color: black;
+    color: rgb(190, 179, 179);
     text-decoration: none;
     font-size: 30px;
     text-align: center;
@@ -30,18 +19,20 @@ nav a {
 }
 /* Schedule style */
 #schedule {
-    width: 1326px;
+    width: 100%px;
     height: 300px;
     display:block;
     position: relative;
-    left: -8px;
-    border: 5px solid black;
-    border-radius: 10px;
-    margin: 5px;
+    top: -25px;
+    background-color: black;
 }
 #schedule h3 {
+    display: block;
+    position: relative;
+    padding-top: 5px;
     text-align: center;
     font-size: 30px;
+    color: rgb(190, 179, 179);
 }
 #schedule ul {
     padding: 10px;
@@ -49,43 +40,72 @@ nav a {
     font-style: italic;
     position: relative;
     top: 0px;
+    color:rgb(190, 179, 179);
 }
 /* Media block style */
 .media {
-    width: 1326px;
-    height: 200px;
-    border: 5px solid black;
-    border-radius: 10px;
+    width: 100%px;
+    height: 300px;
     text-align: center;
     display:block;
     position: relative;
-    left: -3px;
+    top: -39px;
+    background-color: black;
 }
 .media h2 {
+    color:rgb(190, 179, 179);
     font-weight: bold;
-    padding-top: 8px;
+    padding-top: 43px;
 }
 /* Band Bio style */
 .bio {
-    width: 1326px;
+    width: 100%px;
     height: 350px;
-    border: 5px solid black;
-    border-radius: 10px;
+    display: block;
     position: relative;
-    left: -8px;
+    margin-top: -58px;
     text-align: center;
-    margin: 5px;
+    background-color: black;
 }
 .bio h2 {
     font-size: 30px;
+    color:rgb(190, 179, 179);
+    padding-top: 10px;
+}
+.bio h3 {
+    color:rgb(190, 179, 179);
+}
+.bio p {
+    color:rgb(190, 179, 179);
 }
 /* Merchandise */
 .merch {
-    width: 1326px;
+    background-color: black;
+    width: 100%px;
     height: 700px;
-    border: 5px solid black;
-    border-radius: 10px;
-    margin: 5px;
+    display: block;
+    position: relative;
+    top: -78px;
     text-align: center;
-
+}
+.merch h1 {
+    font-size: 100px;
+    color:rgb(190, 179, 179);
+    padding-top: 8px;
+}
+/* Contact style */
+.contact {
+    font-size: 20px;
+    text-align: center;
+    color:rgb(190, 179, 179);
+    width: 100%;
+    height: 200px;
+    display: inline-block;
+    position: relative;
+    top: -72px;
+    background-color: black;
+}
+.contact a {
+    color:rgb(190, 179, 179);
+    text-decoration: none;
 }
