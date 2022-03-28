@@ -12,31 +12,69 @@
           <h1>The Gallery</h1>
       </header>
     </section>
-    <div class="gallery">
-        <figure class="gallery_item gallery_item--1">
-            <img src="Band1.jpg" class="gallery_img" alt="Image 1">
-        </figure>
-        <figure class="gallery_item gallery_item--2">
-            <img src="Band2.jpg" class="gallery_img" alt="Image 2">
-        </figure>
-        <figure class="gallery_item gallery_item--3">
-            <img src="Band3.jpg" class="gallery_img" alt="Image 3">
-        </figure>
-        <figure class="gallery_item gallery_item--4">
-            <img src="Jared's Divo Pic.jpg" class="gallery_img" alt="Image 4">
-        </figure>
-        <figure class="gallery_item gallery_item--5">
-            <img src="Coulter-Chris.jpg" class="gallery_img" alt="Image 5">
-        </figure>
-        <figure class="gallery_item gallery_item--6">
-            <img src="Jared-Chris.jpg" class="gallery_img" alt="Image 6">
-        </figure>
-        <figure class="gallery_item gallery_item--7">
-            <img src="Mark-rockface.jpeg" class="gallery_img" alt="Image 7">
-        </figure>
-        <figure class="gallery_item gallery_item--8">
-            <img src="Jared-Coulter.jpg" class="gallery_img" alt="Image 8">
-        </figure>
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 11</div>
+            <img src="Band1.jpg" style="width: 100%" alt="Band playing together">
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 11</div>
+            <img src="Band2.jpg" style="width: 100%" alt="Band playing together">
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 11</div>
+            <img src="Band3.jpg" style="width: 100%" alt="Band playing together">
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 11</div>
+            <img src="Coulter-Chris.jpg" style="width: 100%" alt="Coulter-Chris">
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">5 / 11</div>
+            <img src="Jared-Chris.jpg" style="width: 100%" alt="Jared-Chris">
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">6 / 11</div>
+            <img src="Markface.jpg" style="width: 100%" alt="Mark-Chris">
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">7 / 11</div>
+            <img src="Chris-Coulter.jpg" style="width: 100%" alt="Chris-Coulter">
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">8 / 11</div>
+            <img src="Jared-Coulter.jpg" style="width: 100%" alt="Jared-Coulter">
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">9 / 11</div>
+            <img src="Mark-rockface.jpeg" style="width: 100%" alt="Mark rocking">
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">10 / 11</div>
+            <img src="Jared's Divo Pic.jpg" style="width: 100%" alt="Jared taking a moment">
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">11 / 11</div>
+            <img src="Jared vertical.jpg" style="width: 100%" alt="Jared taking a moment">
+        </div>
+<!--Previous and Next Buttons-->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
     </div>
-
+    <br>
+<!--Dots and Circles-->
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+        <span class="dot" onclick="currentSlide(7)"></span>
+        <span class="dot" onclick="currentSlide(8)"></span>
+        <span class="dot" onclick="currentSlide(9)"></span>
+        <span class="dot" onclick="currentSlide(10)"></span>
+        <span class="dot" onclick="currentSlide(11)"></span>
+    </div>
+    <script src="myScript.js"></script>
   </body>
