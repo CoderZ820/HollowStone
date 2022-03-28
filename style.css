@@ -1,4 +1,4 @@
-* {box-sizing: border-box;}
+
 /* Body style */
 @font-face {
     font-family: myFirstFont;
@@ -126,6 +126,7 @@ nav a {
 }
 /* Slideshow Container */
 .slideshow-container {
+    background-color: black;
     max-width: 1000px;
     position: relative;
     margin: auto;
