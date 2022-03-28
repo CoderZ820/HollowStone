@@ -4,7 +4,7 @@
     src: url("Angel wish.ttf") format("truetype");
 }
 body {
-    background-color: rgb(60, 60, 168);
+    background-color: rgb(235, 222, 222);
 }
 /* Navigation style */
 nav {
@@ -109,6 +109,21 @@ nav a {
     font-size: 250px;
     text-shadow: 0px 0px 40px rgb(235, 222, 222);
 }
+/* Gallery style */
+.container-gallery  {
+    background-color: black;
+    display: block;
+    text-align: center;
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 25px;
+}
+.container-gallery .gallery-header h1 {
+    font-size: 200px;
+    font-family: myFirstFont;
+    text-shadow: 0px 0px 40px rgb(235, 222, 222);
+}
+
 /* Contact style */
 .contact {
     font-size: 20px;
