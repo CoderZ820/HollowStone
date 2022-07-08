@@ -17,6 +17,11 @@
 body {
     background-color: rgb(235, 222, 222);
 }
+/* Header style */
+.responsive {
+    width: 100%;
+    height: 650px;
+}
 /* Navigation style */
 nav {
     width: 100%;
@@ -132,16 +137,17 @@ nav a {
 .flex-container div {
     background-color: black;
     color: blue;
+    border: 3px solid red;
+    border-radius: 20px;
     width: 100px;
     margin: 100px;
-    padding: 70px;
-    text-align: center;
+    justify-content: center;
     line-height: 75px;
     font-size: 100px;
     
 }
 /* Gallery style */
-.container-gallery  {
+.gallery-container  {
     background-color: black;
     display: block;
     text-align: center;
@@ -149,7 +155,7 @@ nav a {
     padding-top: 40px;
     padding-bottom: 25px;
 }
-.container-gallery .gallery-header h1 {
+.gallery-container .gallery-header h1 {
     font-size: 200px;
     font-family: myFirstFont;
     text-shadow: 0px 0px 40px rgb(235, 222, 222);
